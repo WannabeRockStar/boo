@@ -1,0 +1,149 @@
+body {
+	font-family: "Montserrat", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.navbar {
+	height: 115px;
+}
+.navbar-nav .nav-item {
+	padding: 0 10px;
+}
+.navbar-nav .nav-link {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #777;
+	font-size: 14px;
+}
+.jumbotron {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 530px;
+	background: url("../images/main-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.banner-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.banner-title h1 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+}
+
+.services {
+	padding: 100px 0;
+}
+.services .service-title {
+	text-align: center;
+	color: #222;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.services .service-tagline {
+	text-align: center;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	margin-bottom: 90px;
+}
+.service-box {
+	text-align: center;
+}
+.service-box .service-box-image {
+	margin-bottom: 40px;	
+}
+.service-box .service-box-title {
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.service-box .service-box-text {
+	font-size: 14px;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+}
+.relax-banner {
+	height: 616px;
+	background: url("../images/relax-banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+.relax-banner .relax-banner-title {
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, -10%);
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.relax-banner .green {
+	color: #7cc576;
+}
+
+.latest {
+	padding: 100px 0;
+}
+.latest .latest-title {
+	text-align: center;
+	color: #222;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.latest .latest-tagline {
+	text-align: center;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	margin-bottom: 90px;
+}
+.latest .latest-box-title {
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.latest .latest-box-text {
+	font-size: 16px;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 40px;
+}
+.latest-list-item {
+	list-style-type: none;
+	text-indent: 60px;
+	margin-bottom: 50px;
+}
+.latest-list-item .latest-list-title {
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+}
+.latest-list-item .latest-list-text {
+	font-size: 16px;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+}
+.latest .latest-more-link {
+	color: #7cc576;
+	font-weight: 900;
+}
