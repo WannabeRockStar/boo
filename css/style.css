@@ -147,3 +147,137 @@ h1, h2, h3, h4, h5, h6, ul {
 	color: #7cc576;
 	font-weight: 900;
 }
+
+.value {
+	padding: 100px 0;
+	background: #f9f9f9;
+}
+.value .value-title {
+	text-align: center;
+	color: #222;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.value .value-tagline {
+	text-align: center;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	margin-bottom: 90px;
+}
+.value-box {
+	text-align: center;
+}
+.value-box .value-box-image {
+	margin-bottom: 25px;
+}
+.value-box .value-box-title {
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.value-box .value-box-text {
+	font-size: 14px;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	width: 90%;
+}
+
+.clients {
+	padding: 100px 0;
+}
+.clients .clients-title {
+	text-align: center;
+	color: #222;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.clients .clients-tagline {
+	text-align: center;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	margin-bottom: 90px;
+}
+.client-box {
+	background: #f9f9f9;
+	padding: 40px;
+	margin-bottom: 10px;
+	width: 60%;
+}
+.client-box .clients-quote {
+	color: #777;
+	font-size: 22px;
+	font-family: "Roboto Slab", serif;
+}
+.client-box .clients-author {
+	color: #7cc576;
+	font-size: 18px;
+	font-family: "Roboto Slab", serif;
+}
+.client-box-right {
+	position: relative;
+	left: 30%;
+	margin-bottom: 80px;
+}
+.client-box-right:after {
+	content: "";
+	background: #f9f9f9;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: -15px;
+	transform: translateY(-50%) rotate(45deg);
+}
+.client-box-left {
+	position: relative;
+	left: 10%;
+}
+.client-box-left:after {
+	content: "";
+	background: #f9f9f9;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	right: -15px;
+	transform: translateY(-50%) rotate(45deg);
+}
+
+.talk {
+	padding: 70px 0;
+	background: #7cc576;
+	text-align: center;
+}
+.talk .talk-message {
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.talk .talk-button {
+	background: #7cc576;
+	text-decoration: none;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	padding: 10px 30px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.client-logo {
+	padding: 60px 0;
+	text-align: center;
+}
+
+footer {
+	padding: 60px 0;
+	background: #222;
+}
