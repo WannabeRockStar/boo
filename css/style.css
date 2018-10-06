@@ -291,6 +291,11 @@ h1, h2, h3, h4, h5, h6, ul, p {
 .footer-list {
 	list-style-type: none;
 }
+.footer-list .footer-list-item {
+	margin-bottom: 15px;
+	color: #ececec;
+	font-family: 'Roboto Slab', serif;
+}
 .footer-list .footer-list-item img {
 	margin-right: 10px;
 }
@@ -298,11 +303,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 18px;
-}
-.footer-list .footer-list-item {
-	margin-bottom: 15px;
-	color: #ececec;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .footer-list .footer-list-item .post-time {
 	font-size: 12px;
