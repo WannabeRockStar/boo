@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	border: 0;
 }
 .navbar {
-	height: 115px;
+	padding: 35px 0;
 }
 .navbar-nav .nav-item {
 	padding: 0 10px;
@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	font-weight: bold;
 	font-size: 60px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .services {
@@ -316,4 +317,153 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	color: #555;
 	font-size: 16px;
 	font-weight: bold;
+}
+
+@media (max-width: 960px) {
+	.banner-title h1 {
+		font-size: 40px;
+	}
+	.relax-banner .relax-banner-title {
+		position: absolute;
+		left: 70%;
+		top: 10%;
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.banner-title h1 {
+		font-size: 32px;
+	}
+	.services .service-title {
+		font-size: 32px;
+	}
+	.services .service-tagline {
+		font-size: 16px;
+	}
+	.relax-banner .relax-banner-title {
+		font-size: 32px;
+		left: 60%;
+		text-shadow: 1px 2px 2px #666;
+	}
+	.latest .latest-title {
+		font-size: 32px;
+	}
+	.latest .latest-tagline {
+		font-size: 16px;
+	}
+	.value .value-title {
+		font-size: 32px;
+	}
+	.value .value-tagline {
+		font-size: 16px;
+	}
+	.clients .clients-title {
+		font-size: 32px;
+	}
+	.clients .clients-tagline {
+		font-size: 16px;
+	}
+	.talk .talk-message {
+		font-size: 32px;
+	}
+	.logo-box {
+		width: 96%;
+		margin: auto;
+	}
+	.logo-box img {
+		width: 100%;
+	}
+	.client-box {
+		width: 96%;
+		margin: auto;
+	}
+	.client-box .clients-quote {
+		font-size: 16px;
+	}
+	.client-box .clients-author {
+		font-size: 14px;
+	}
+	.client-box-right {
+		position: relative;
+		left: 0%;
+		margin-bottom: 80px;
+	}
+	.client-box-left {
+		position: relative;
+		left: 0%;
+	}
+	.footer-list .footer-list-item {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+	.banner-title {
+		width: 100%;
+	}
+	.banner-title h1 {
+		font-size: 28px;
+	}
+	.services .service-title {
+		font-size: 26px;
+	}
+	.services .service-tagline {
+		font-size: 16px;
+	}
+	.relax-banner .relax-banner-title {
+		font-size: 26px;
+		left: 60%;
+		text-shadow: 1px 2px 2px #666;
+	}
+	.latest .latest-title {
+		font-size: 26px;
+	}
+	.latest .latest-tagline {
+		font-size: 16px;
+	}
+	.value .value-title {
+		font-size: 26px;
+	}
+	.value .value-tagline {
+		font-size: 16px;
+	}
+	.clients .clients-title {
+		font-size: 26px;
+	}
+	.clients .clients-tagline {
+		font-size: 16px;
+	}
+	.talk .talk-message {
+		font-size: 24px;
+	}
+	.logo-box {
+		width: 96%;
+		margin: auto;
+	}
+	.logo-box img {
+		width: 100%;
+	}
+	.client-box {
+		width: 96%;
+		margin: auto;
+	}
+	.client-box .clients-quote {
+		font-size: 16px;
+	}
+	.client-box .clients-author {
+		font-size: 14px;
+	}
+	.client-box-right {
+		position: relative;
+		left: 0%;
+		margin-bottom: 80px;
+	}
+	.client-box-left {
+		position: relative;
+		left: 0%;
+	}
+	.footer-list .footer-list-item {
+		font-size: 14px;
+	}
 }
