@@ -84,14 +84,16 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	position: relative;
 }
-.relax-banner .relax-banner-title {
+.parent-div {
+	position: relative;
+	height: 616px;
+}
+.parent-div .relax-banner-title {
 	position: absolute;
-	width: 100%;
-	left: 50%;
+	left: 10%;
 	top: 10%;
-	transform: translate(-50%, -10%);
+	transform: translate(-10%, -10%);
 	font-family: "Montserrat Bold", sans-serif;
 	color: #fff;
 	font-size: 40px;
@@ -325,11 +327,6 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	.banner-title h1 {
 		font-size: 40px;
 	}
-	.relax-banner .relax-banner-title {
-		position: absolute;
-		left: 50%;
-		top: 10%;
-	}
 }
 
 @media (max-width: 768px) {
@@ -346,7 +343,6 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	}
 	.relax-banner .relax-banner-title {
 		font-size: 32px;
-		left: 50%;
 		text-shadow: 1px 2px 2px #666;
 	}
 	.latest .latest-title {
@@ -420,7 +416,6 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	}
 	.relax-banner .relax-banner-title {
 		font-size: 26px;
-		left: 50%;
 		text-shadow: 1px 2px 2px #666;
 	}
 	.latest .latest-title {
@@ -443,6 +438,11 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	}
 	.talk .talk-message {
 		font-size: 24px;
+	}
+	.client-box-left:after {
+		content: "";
+		width: 0px;
+		height: 0px;
 	}
 	.logo-box {
 		width: 96%;
