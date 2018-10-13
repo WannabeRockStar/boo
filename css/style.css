@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	margin-bottom: 20px;
 }
 .service-box .service-box-text {
-	font-size: 14px;
+	font-size: 16px;
 	color: #777;
 	font-family: 'Roboto Slab', serif;
 }
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	margin-bottom: 20px;
 }
 .latest .latest-box-text {
-	font-size: 16px;
+	font-size: 17px;
 	color: #777;
 	font-family: 'Roboto Slab', serif;
 	margin-bottom: 40px;
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	font-weight: bold;
 }
 .latest-list-item .latest-list-text {
-	font-size: 16px;
+	font-size: 17px;
 	color: #777;
 	font-family: 'Roboto Slab', serif;
 }
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	margin-bottom: 20px;
 }
 .value-box .value-box-text {
-	font-size: 14px;
+	font-size: 17px;
 	color: #777;
 	font-family: 'Roboto Slab', serif;
 	width: 90%;
@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 .footer-list .footer-list-item {
 	margin-bottom: 16px;
 	color: #ececec;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto Slab';
 }
 .footer-list .footer-list-item img {
 	margin-right: 10px;
