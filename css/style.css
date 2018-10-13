@@ -22,25 +22,34 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	height: 530px;
-	background: url("../images/main-banner.jpg");
+	/*background: url("../images/main-banner.jpg");
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
-.banner-title {
-	position: absolute;
+.carousel-indicators li {
+	background: #666;
+	height: 10px;
+	width: 50px;
+	cursor: pointer;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	width: 30px;
+	height: 30px;
+}
+.carousel-caption {
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.banner-title h1 {
-	color: #fff;
-	font-weight: bold;
-	font-size: 60px;
+	transform: translateY(-5%);
 	font-family: "Montserrat Bold", sans-serif;
-	text-align: center;
+	font-size: 32px;
+	margin: 0;
+	padding: 0;
+}
+.carousel-caption .caption-heading {
+	margin: 0;
+	padding: 0;
 	text-transform: uppercase;
+	text-shadow: 1px 1px 2px #555;
 }
 
 .services {
@@ -332,17 +341,9 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	clear: both;
 }
 
-@media (max-width: 960px) {
-	.banner-title h1 {
-		font-size: 40px;
-	}
-}
-
 @media (max-width: 768px) {
-	.banner-title h1 {
-		font-size: 32px;
-		width: 98%;
-		background: red;
+	.carousel-caption .caption-heading {
+		font-size: 24px;
 	}
 	.services .service-title {
 		font-size: 32px;
@@ -411,11 +412,8 @@ h1, h2, h3, h4, h5, h6, ul, p {
 }
 
 @media (max-width: 480px) {
-	.banner-title {
-		width: 100%;
-	}
-	.banner-title h1 {
-		font-size: 28px;
+	.navbar {
+		padding: 15px 0;
 	}
 	.services .service-title {
 		font-size: 26px;
