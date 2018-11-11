@@ -345,6 +345,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	.copyright .copyright-text {
 		font-weight: bold;
 		float: none;
+		margin-bottom: 2%;
 	}
 	.fb-like {
 		float: none;
