@@ -341,6 +341,16 @@ h1, h2, h3, h4, h5, h6, ul, p {
 	clear: both;
 }
 
+@media (max-width: 994px) {
+	.copyright .copyright-text {
+		font-weight: bold;
+		float: none;
+	}
+	.fb-like {
+		float: none;
+	}
+}
+
 @media (max-width: 768px) {
 	.carousel-caption .caption-heading {
 		font-size: 24px;
